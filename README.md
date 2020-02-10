@@ -8,7 +8,7 @@ If you already have Anaconda3 already installed and you wish to continue with th
 
 ## Step 1
 
-Please make a folder called `code` under this path, using your username: `/Users/my_user_name/Documents/code`. This is where we'll keep our repositories, such as `ocpi-lab-automation`. 
+Please make a folder called `code` under this path, using your username: `/Users/my_user_name/Documents/code`. This is where we'll keep our repositories.
 
 Download these:
 - [miniconda3 for python3 64 bits](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe). Barebones python, similar to Anaconda, but without the extra packages.
@@ -18,7 +18,7 @@ Download these:
 
 ## Step 2
 
-Install python3 64 bits by running the miniconda3 .exe file. When prompted, make sure to check the box "Add Anaconda to the system PATH environment variable". 
+Install python3 64 bits by running the miniconda3 .exe file. :warning: **When prompted, make sure to check the box "Add Anaconda to the system PATH environment variable".** :warning:
 
 ## Step 3
 
@@ -51,7 +51,13 @@ Next, navigate to the location of the `get-pip.py` file you downloaded above (e.
 python get-pip.py
 ```
 
-Pip is now installed! Now you can run `pip install numpy ` and other useful packages.
+Pip is now installed! Now you can run `pip install numpy ` and other useful packages. These include:
+
+- `pip install jupyterlab`
+- `pip install pandas`
+- `pip install scipy`
+
+If you'd like to see the power of jupyterlab, check out [this](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks) link. More information about [Jupyter](https://jupyter.org/). Jupyter offers notebooks that can run python. You evaluate pieces of code sequentially, similar to Mathematica. To open JupyterLab, open GitBash terminal, navigate to your directory of choice, then run `jupyter-lab` in the terminal. A JupyterLab window should open in your Google Chrome.
 
 
 ## Step 5
@@ -59,12 +65,3 @@ Pip is now installed! Now you can run `pip install numpy ` and other useful pack
 Now you have successfully installed python3 on your PC. You are ready to use a github repo such as `ocpi-lab-automation` by following the install steps for that repo page. If you would first like to start out by playing around with python, open PyCharm and select `New Project`. Make sure to create a new project using using an existing interpreter: Python 3.7 that is under ProgramData\Miniconda3.
 
 ![creating new project](https://github.com/ocpi-ucsb/install_python/blob/master/images/create_new_python_project.PNG)
-
-You can also play around with python using [Jupyter](https://jupyter.org/). Jupyter offers notebooks that can run python. You evaluate pieces of code sequentially, similar to Mathematica. In our case, JupyterLab is probably of most use to us. For example, you can create a new JupyterLab notebook every day of running an experiment. The notebook tracks all of the commands you send to the experiment, effectively acting as a laboratory notebook that never misses anything. 
-
-To install Jupyter lab, run
-```
-pip install jupyterlab
-```
-
-If you'd like to see the power of jupyterlab, check out [this](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks) link.
