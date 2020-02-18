@@ -62,7 +62,18 @@ If you'd like to see the power of jupyterlab, check out [this](https://github.co
 
 ## Step 5
 
-Now you have successfully installed python3 on your PC. You are ready to use any github repo by following the install steps for that repo page. Usually these steps involve the following:
+Now you have successfully installed python3 on your PC. 
+
+### Using PyCharm IDE
+
+If you would first like to start out by playing around with python, open PyCharm and select `New Project`. Make sure to create a new project using using an existing interpreter: Python 3.7 that is under ProgramData\Miniconda3.
+
+![creating new project](https://github.com/aisichenko/install_python/blob/master/create_new_python_project.PNG)
+
+
+### Cloning into a repository from Github
+
+You are ready to use any github repo by following the install steps for that repo page. Usually these steps involve the following:
 
 1. Go to the repo github page, for example [lightlab](https://github.com/lightwave-lab/lightlab)
 2. In the upper right hand corner, click the green button and copy the URL
@@ -71,14 +82,11 @@ Now you have successfully installed python3 on your PC. You are ready to use any
 
 3. In your favorite terminal, type:
 
-``` git clone <the_url_you_copied>
+``` 
+git clone <the_url_you_copied>
 cd <name_of_the_repo>
 ```
 
 4. Lastly, some repositories have a `setup.py` file to run to finish the install, just follow those instructions. Otherwise another useful thing to run is `pip install -r requirements.txt` to make sure you have all of the repo required packages installed.
 
 Good luck!
-
-If you would first like to start out by playing around with python, open PyCharm and select `New Project`. Make sure to create a new project using using an existing interpreter: Python 3.7 that is under ProgramData\Miniconda3.
-
-![creating new project](https://github.com/aisichenko/install_python/blob/master/create_new_python_project.PNG)
