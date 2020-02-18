@@ -66,6 +66,9 @@ Now you have successfully installed python3 on your PC. You are ready to use any
 
 1. Go to the repo github page, for example [lightlab](https://github.com/lightwave-lab/lightlab)
 2. In the upper right hand corner, click the green button and copy the URL
+
+![git_clone](https://github.com/aisichenko/install_python/blob/master/git_clone.png)
+
 3. In your favorite terminal, type:
 
 ``` git clone <the_url_you_copied>
