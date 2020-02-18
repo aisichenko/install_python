@@ -64,4 +64,4 @@ If you'd like to see the power of jupyterlab, check out [this](https://github.co
 
 Now you have successfully installed python3 on your PC. You are ready to use a github repo such as `ocpi-lab-automation` by following the install steps for that repo page. If you would first like to start out by playing around with python, open PyCharm and select `New Project`. Make sure to create a new project using using an existing interpreter: Python 3.7 that is under ProgramData\Miniconda3.
 
-![creating new project](https://github.com/ocpi-ucsb/install_python/blob/master/images/create_new_python_project.PNG)
+![creating new project](https://github.com/aisichenko/install_python/blob/master/create_new_python_project.PNG)
