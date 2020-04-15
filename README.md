@@ -67,9 +67,14 @@ Now you have successfully installed python3 on your PC.
 
 ### Using PyCharm IDE
 
-If you would first like to start out by playing around with python, open PyCharm and select `New Project`. Make sure to create a new project using using an existing interpreter: Python 3.7 that is under ProgramData\Miniconda3.
+If you would first like to start out by playing around with python, open PyCharm and click Configure on this screen:
 
-![creating new project](https://github.com/aisichenko/install_python/blob/master/create_new_python_project.PNG)
+![config_pycharm](https://github.com/aisichenko/install_python/blob/master/configure_pycharm.png)
+
+Then click `Settings` then select `Python Intepreter` in the left column. Locate the gear symbol on the right side and click `Add`
+
+![config_pycharm](https://github.com/aisichenko/install_python/blob/master/config_interpreter.png)
+
 
 
 ### Cloning into a repository from Github
