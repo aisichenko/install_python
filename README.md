@@ -59,6 +59,7 @@ Pip is now installed! Now you can run `pip install numpy ` and other useful pack
 - `pip install pandas`
 - `pip install scipy`
 - `pip install numpy`
+- `pip install matplotlib`
 
 If you'd like to see the power of jupyterlab, check out [this](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks) link. More information about [Jupyter](https://jupyter.org/). Jupyter offers notebooks that can run python. You evaluate pieces of code sequentially, similar to Mathematica. To open JupyterLab, open GitBash terminal, navigate to your directory of choice, then run `jupyter-lab` in the terminal. A JupyterLab window should open in your Google Chrome.
 
