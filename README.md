@@ -31,13 +31,15 @@ Next, open windows Command Prompt as administrator. You can do this by typing `c
 Finally, copy-paste this entire line into the terminal:
 
 ```
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
 then run
 ```
 choco install make
 ```
+
+If there are some issues, you can file an Issues request in the repository. Basically if you have trouble with this step, just skip it and move on, it's not that important but makes it easier to install some packages in the future.
 
 ## Step 4
 
