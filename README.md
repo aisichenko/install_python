@@ -73,9 +73,19 @@ If you would first like to start out by playing around with python, open PyCharm
 
 Then click `Settings` then select `Python Intepreter` in the left column. Locate the gear symbol on the right side and click `Add`
 
-![config_pycharm](https://github.com/aisichenko/install_python/blob/master/config_interpreter.png)
+![config_pycharm2](https://github.com/aisichenko/install_python/blob/master/config_interpreter.png)
 
+Select Conda Environment on the left side, and Existing environment. The Conda executable should be recognized, just add the Interpreter following the path similar to mine below:
 
+![config_pycharm2](https://github.com/aisichenko/install_python/blob/master/pycharm_set_env.png)
+
+**Importantly, select make available to all projects**
+
+Lastly, hit OK and your packages should start to show up!
+
+![config_pycharm2](https://github.com/aisichenko/install_python/blob/master/pycharm_miniconda_env.png)
+
+Hit Apply and that's it!
 
 ### Cloning into a repository from Github
 
