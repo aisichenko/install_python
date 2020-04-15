@@ -87,6 +87,6 @@ git clone <the_url_you_copied>
 cd <name_of_the_repo>
 ```
 
-4. Lastly, some repositories have a `setup.py` file to run to finish the install, just follow those instructions. Otherwise another useful thing to run is `pip install -r requirements.txt` to make sure you have all of the repo required packages installed.
+4. Lastly, some repositories have a last step to finish the installation, basically just follow those instructions. For example, sometimes you have to run `make install` which if you have `chocalatey` set up then you can do that. Others have a `setup.py` file to run to finish the install. Otherwise another useful thing to run is `pip install -r requirements.txt` to make sure you have all of the repo required packages installed, but again a good repository will walk you through the installation instructions.
 
 Good luck!
