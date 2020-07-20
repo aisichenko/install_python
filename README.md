@@ -63,6 +63,12 @@ Pip is now installed! Now you can run `pip install numpy ` and other useful pack
 
 If you'd like to see the power of jupyterlab, check out [this](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks) link. More information about [Jupyter](https://jupyter.org/). Jupyter offers notebooks that can run python. You evaluate pieces of code sequentially, similar to Mathematica. To open JupyterLab, open GitBash terminal, navigate to your directory of choice, then run `jupyter-lab` in the terminal. A JupyterLab window should open in your Google Chrome.
 
+### Note
+
+:warning: One known issue is a permissions error when using `pip` on Windows. To fix this, navigate to the root folder for Miniconda3, which in many cases is under `C:\ProgramData\Miniconda3`. Right click then `Properties`, then select the Security tab. For both Administrator and Users, select `Full Control` of the folder. 
+
+![security](https://github.com/aisichenko/install_python/blob/master/miniconda_permissions.png)
+
 
 ## Step 5
 
