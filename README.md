@@ -12,8 +12,7 @@ Please make a folder called `code` under this path, using your username: `/Users
 
 Download these:
 - [miniconda3 for python3 64 bits](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe). Barebones python, similar to Anaconda, but without the extra packages.
-- [GIT for windows](https://gitforwindows.org/). This is a file version management system. Comes with gitbash command prompt.
-- [Pycharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC). This is a visual interface for using python, similar to Spyder.
+- [GIT for windows](https://gitforwindows.org/). This is a file version management system. Comes with gitbash command prompt. You can also use the Anaconda prompt powershell.
 - `pip` is used to install most python packages, for instance `pip install numpy`. Right-click [this](https://bootstrap.pypa.io/get-pip.py) link and select save link as. Save this `get-pip.py` file under the `code` directory you just created above. 
 
 ## Step 2
@@ -69,33 +68,6 @@ If you'd like to see the power of jupyterlab, check out [this](https://github.co
 
 ![security](https://github.com/aisichenko/install_python/blob/master/miniconda_permissions.png)
 
-
-## Step 5
-
-Now you have successfully installed python3 on your PC. 
-
-### Using PyCharm IDE
-
-If you would first like to start out by playing around with python, open PyCharm and click Configure on this screen:
-
-![config_pycharm](https://github.com/aisichenko/install_python/blob/master/configure_pycharm.png)
-
-Then click `Settings` then select `Python Intepreter` in the left column. Locate the gear symbol on the right side and click `Add`
-
-![config_pycharm2](https://github.com/aisichenko/install_python/blob/master/config_interpreter.png)
-
-Select Conda Environment on the left side, and Existing environment. The Conda executable should be recognized, just add the Interpreter following the path similar to mine below:
-
-![config_pycharm2](https://github.com/aisichenko/install_python/blob/master/pycharm_set_env.png)
-
-**Importantly, select make available to all projects**
-
-Lastly, hit OK and your packages should start to show up!
-
-![config_pycharm2](https://github.com/aisichenko/install_python/blob/master/pycharm_miniconda_env.png)
-
-Hit Apply and that's it!
-
 ### Cloning into a repository from Github
 
 You are ready to use any github repo by following the install steps for that repo page. Usually these steps involve the following:
@@ -113,5 +85,3 @@ cd <name_of_the_repo>
 ```
 
 4. Lastly, some repositories have a last step to finish the installation, basically just follow those instructions. For example, sometimes you have to run `make install` which if you have `chocalatey` set up then you can do that. Others have a `setup.py` file to run to finish the install. Otherwise another useful thing to run is `pip install -r requirements.txt` to make sure you have all of the repo required packages installed, but again a good repository will walk you through the installation instructions.
-
-Good luck!
