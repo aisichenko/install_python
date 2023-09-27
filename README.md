@@ -17,7 +17,7 @@ Download these:
 
 ## Step 2
 
-Install python3 64 bits by running the miniconda3 .exe file. :warning: **When prompted, make sure to install for all users (admin)".** :warning: This will ensure miniconda3 is installed at `C:\ProgramData\miniconda3`. Then, open up the Windows environment variables at "Edit the system environment variables" in Control Panel. Click on Environment Variables then select the `Path` variable under the System Variables list and click Edit. Add a new environment variable with this path: `C:\ProgramData\miniconda3`.
+Install python3 64 bits by running the miniconda3 .exe file. :warning: **When prompted, make sure to install for all users (admin)".** :warning: This will ensure miniconda3 is installed at `C:\ProgramData\miniconda3`. Then, open up the Windows environment variables at "Edit the system environment variables" in Control Panel. Click on Environment Variables then select the `Path` variable under the System Variables list and click Edit. Add a new environment variables with this path: `C:\ProgramData\miniconda3` and `C:\ProgramData\miniconda3\Scripts`
 
 ## Step 3
 
