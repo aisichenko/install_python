@@ -2,7 +2,7 @@
 
 Run this to install python on your PC, 64 bit. To check if you already have python installed, see [this](https://www.wikihow.com/Check-Python-Version-on-PC-or-Mac) link. 
 
-It is likely that you already have python installed. If you end up multiple "pythons" installed on your computer, telling the computer where to look for python packages may be tricky - so it's best to just have one single python, and I recommend Miniconda3.
+If you end up multiple "pythons" installed on your computer, telling the computer where to look for python packages may be tricky - so it's best to just have one single python, and I recommend Miniconda3.
 
 If you already have Anaconda3 already installed and you wish to continue with this tutorial, navigate to ProgramData/Anaconda3 and run the uninstall .exe file.
 
@@ -17,7 +17,7 @@ Download these:
 
 ## Step 2
 
-Install python3 64 bits by running the miniconda3 .exe file. :warning: **When prompted, make sure to check the box "Add Anaconda to the system PATH environment variable".** :warning:
+Install python3 64 bits by running the miniconda3 .exe file. :warning: **When prompted, make sure to install for all users (admin)".** :warning: This will ensure miniconda3 is installed at `C:\ProgramData\miniconda3`. Then, open up the Windows environment variables at "Edit the system environment variables" in Control Panel. Click on Environment Variables then select the `Path` variable under the System Variables list and click Edit. Add a new environment variable with this path: `C:\ProgramData\miniconda3`.
 
 ## Step 3
 
@@ -38,15 +38,11 @@ then run
 choco install make
 ```
 
-If there are some issues, you can file an Issues request in the repository. Basically if you have trouble with this step, just skip it and move on, it's not that important but makes it easier to install some packages in the future.
+If there are issues with this step, you may need to reboot the computer and try it again.
 
 ## Step 4
 
-Now we will set up `pip`. This is a platform to easily install packages, example `pip install numpy` install numpy, a powerful math processing package.
-
-First, open GitBash. Type `python -i` and press enter. If Python is installed correctly, you should see output that says something like `python 3.7` and a command line to enter python commands. Type `exit()` to exit that. If you receive a message, `Python is not recognized as an internal or external command, operable program or batch file`, then Python is either not installed or the system variable path hasn’t been set. You’ll need to either launch Python from the folder in which it is installed or adjust your system variables to allow Python to be launched from any location. If you see this problem on GitBash, [this](https://stackoverflow.com/questions/22869192/git-bash-wont-run-my-python-files) link has a solution. If that doesn't work, follow the instructions [here](https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-so-it-finds-my-modules-packages) where you add the python path environment variable manually through Windows advanced system settings.
-
-Next, navigate to the location of the `get-pip.py` file you downloaded above (e.g. `cd /yourpath`). Then run,
+Set up `pip`. This is a platform to easily install packages, example `pip install numpy` install numpy, a powerful math processing package. Navigate to the location of the `get-pip.py` file you downloaded above (e.g. `cd /yourpath`). Then run,
 
 ```
 python get-pip.py
